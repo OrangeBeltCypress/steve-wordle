@@ -1,0 +1,32 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial, sans-serif;
+}
+#game{
+    text-align: center;
+}
+#board{
+    margin-bottom: 20px;
+}
+.cell{
+    width: 60px;
+    height: 60px;
+    border: 2px solid green;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+.correct{
+    background-color: rgb(24, 220, 24);
+}
+.present{
+    background-color: rgb(245, 245, 12);
+}
+.absent{
+    background-color: rgb(130, 129, 129);
+}
