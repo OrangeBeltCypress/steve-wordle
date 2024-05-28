@@ -1,4 +1,4 @@
-const words = ["world", "happy", "disco", "eager", "goood"]
+const words = ["world", "happy", "disco", "eager", "goood", "apple", "bravo", "tests", "chair", "igloo"]
 const correctWord = words[Math.floor(Math.random() * words.length)].toUpperCase(); // Example word
 const maxGuesses = 5;
 let currentGuess = '';
